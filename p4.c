@@ -1,3 +1,5 @@
+//this program can be used to find the factorial of a number
+//this program is also an introduction to functions in C
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -20,7 +22,7 @@ int main()
 {
     int n;
     printf("Enter the number \n");
-    scanf("%d",&n);
-    printf("Factorial of a number =% d \n",fact(n));
+    scanf("%d",&n);//read the number
+    printf("Factorial of a number =% d \n",fact(n));//calling function fact
     return 0;
 }
