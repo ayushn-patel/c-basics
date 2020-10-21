@@ -1,11 +1,12 @@
+//this program is an introductory program to arrays 
 #include <stdio.h>
 
 int main() {
     int arr[100],freq[100];
     int n,i;
-    printf("Enter the number of elements in array \n");
+    printf("Enter the number of elements in array- \n");
     scanf("%d",&n);
-    printf("Enter elements in the array \n");
+    printf("Enter elements in the array- \n");
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
@@ -17,4 +18,5 @@ int main() {
         printf("%d ",i);
     }
     printf("\n");
+    return 0;
 }
