@@ -1,13 +1,14 @@
+//this program can be used to search for elements in an array
 #include<stdio.h>
 int main()
 {
     int a[100],n,el,i;  
-    printf("Enter the size of the array");
-    scanf("%d",&n);
-    printf("Enter the elements of the array");
+    printf("Enter the size of the array-");
+    scanf("%d",&n);//read "n" which defines the size of the array
+    printf("Enter the elements of the array-");
     for(int i=0;i<n;++i)
         scanf("%d",&a[i]);
-    printf("Enter the element to be searched");
+    printf("Enter the element to be searched-");
     scanf("%d",&el);
     for(i=0;i<n;++i)
     {  
@@ -15,8 +16,9 @@ int main()
             break;
     }  
     if(i==n)  
-        printf("element not found in the array");   
+        printf("Element not found in the array");   
     else  
-        printf("element found at %d",i+1);
+        printf("Element found at %d",i+1);
+    return 0;
 
 }
