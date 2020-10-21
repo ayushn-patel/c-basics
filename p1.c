@@ -16,6 +16,6 @@ int main()
     printf("%f\n",(float) a/b);
     printf("%f\n",(float)a/(float)b);
     printf("%f\n",a/(float)b);
-   
+   return 0;
    
 }

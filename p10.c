@@ -1,3 +1,4 @@
+//this program is used to determine if a number is a strong number or not
 #include <stdio.h>
 
 int main()
@@ -7,7 +8,7 @@ int main()
     n = n1;
     while (n)
     {
-        r = n % 10; 
+        r = n % 10; // Taking the last digit of the number
         for (i = 1; i <= r; i++)
         {
             f = f * i;
@@ -16,9 +17,10 @@ int main()
         n /= 10;
     }
     if (s == n1)
-        printf("Strong no.");
+        printf("Strong number");
     else
-        printf("Not Strong no.");
+        printf("Not a Strong number");
+    return 0;
 
 
 }
