@@ -1,3 +1,5 @@
+//C Program to print Floyd’s triangle
+// Without using a temporary variable and with only one loop 
 #include<stdio.h> 
 void floyd(int n){
     int i,j=1; 
@@ -11,5 +13,6 @@ void floyd(int n){
 } 
   
 int main(){ 
-    floyd(6); 
+    floyd(6); //function floyd called
+    return 0;
 } 
